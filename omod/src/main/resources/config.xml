@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module configVersion="1.2">
+
+  <!-- Base Module Properties -->
+  <id>sjri</id>
+  <name>Bahmni SJRI Module</name>
+  <version>0.1-SNAPSHOT</version>
+  <package>org.bahmni.module.sjri</package>
+  <author>Thoughtworks</author>
+  <description>
+    Bahmni SJRI Module
+  </description>
+
+  <activator>org.bahmni.module.sjri.SJRIModuleActivator</activator>
+
+  <require_version>2.1.1</require_version>
+  <require_modules>
+    <require_module>org.openmrs.module.webservices.rest</require_module>
+    <require_module>org.bahmni.module.bahmnicore</require_module>
+    <require_module>org.openmrs.module.appointments</require_module>
+  </require_modules>
+
+
+
+  <!--<mappingFiles>-->
+    <!--Example.hbm.xml-->
+  <!--</mappingFiles>-->
+
+  <messages>
+    <lang>en</lang>
+    <file>messages.properties</file>
+  </messages>
+
+</module>
+
